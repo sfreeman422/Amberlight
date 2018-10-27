@@ -6,7 +6,10 @@
 		"editor.foreground": "#f976b1",
 		"activityBarBadge.background": "#ff9500",
 		"sideBarTitle.foreground": "#ff9500",
-		"statusBar.background": "#ff9500"
+		"statusBar.background": "#ff9500",
+		"terminal.background": "#000000",
+		"terminal.foreground": "#ff9500",
+		"terminalCursor.foreground": "#fb00ff"
 	},
 	"tokenColors": [
 		{
