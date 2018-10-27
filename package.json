@@ -1,0 +1,22 @@
+{
+    "name": "amberlight",
+    "displayName": "amberlight",
+    "description": "Amber Based VSCode Theme",
+    "version": "0.0.1",
+    "publisher": "jrjrjr",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Amberlight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Amberlight-color-theme.json"
+            }
+        ]
+    }
+}
