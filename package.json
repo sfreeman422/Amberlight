@@ -2,7 +2,7 @@
     "name": "amberlight",
     "displayName": "amberlight",
     "description": "Amber Based VSCode Theme",
-    "version": "0.6.0",
+    "version": "0.7.0",
     "publisher": "jrjrjr",
     "engines": {
         "vscode": "^1.28.0"
