@@ -3,12 +3,13 @@
 	"type": "dark",
 	"colors": {
 		"editor.background": "#000000",
-		"editor.foreground": "#f976b1",
+		"editor.foreground": "#ff9500",
 		"activityBarBadge.background": "#ff9500",
 		"sideBarTitle.foreground": "#ff9500",
 		"statusBar.background": "#ff9500",
 		"terminal.background": "#000000",
 		"terminal.foreground": "#ff9500",
+		"terminal.border": "#fb00ff",
 		"terminalCursor.foreground": "#fb00ff"
 	},
 	"tokenColors": [
@@ -63,11 +64,10 @@
 			"scope": [
 				"keyword",
 				"storage.type",
-				"storage.modifier",
-				"meta.method.declaration.js"
+				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#d0ff00"
+				"foreground": "#8cff00"
 			}
 		},
 		{
@@ -84,10 +84,23 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"meta.brace.round.js"
 			],
 			"settings": {
 				"foreground": "#ff9500"
+			}
+		},
+		{
+			"name": "keywords",
+			"scope": [
+				"keyword.operator.comparison.js",
+				"support.variable.property.dom.js",
+				"storage.type.js",
+				"keyword.operator.assignment.js"
+			],
+			"settings": {
+				"foreground": "#ffd467dd"
 			}
 		},
 		{
@@ -108,19 +121,22 @@
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
+				"storage.type.function.arrow.js",
+				"variable.function.constructor"
 			],
 			"settings": {
 				"foreground": "#ffc800"
 			}
 		},
 		{
-			"name": "Block Level Variables",
+			"name": "Function Declaration",
 			"scope": [
-				"meta.block variable.other"
+				"entity.name.function.js",
 			],
 			"settings": {
-				"foreground": "#fde405"
+				"foreground": "#ffc800",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -143,7 +159,8 @@
 				"constant.escape",
 				"variable.parameter",
 				"keyword.other.unit",
-				"keyword.other"
+				"keyword.other",
+				"variable.other.object.js"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -210,7 +227,9 @@
 			"scope": [
 				"entity.name.module.js",
 				"variable.import.parameter.js",
-				"variable.other.class.js"
+				"variable.other.class.js",
+				"variable.parameter.js",
+				"meta.object-literal.key.js"
 			],
 			"settings": {
 				"foreground": "#FF5370"
@@ -219,7 +238,10 @@
 		{
 			"name": "Language methods",
 			"scope": [
-				"variable.language"
+				"variable.language",
+				"storage.type.class.js",
+				"storage.modifier.js",
+				"storage.modifier.async.js"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -239,8 +261,7 @@
 		{
 			"name": "meta.method.js",
 			"scope": [
-				"meta.class-method.js entity.name.function.js",
-				"variable.function.constructor"
+				"meta.class-method.js",
 			],
 			"settings": {
 				"foreground": "#82AAFF"
@@ -249,7 +270,9 @@
 		{
 			"name": "Attributes",
 			"scope": [
-				"entity.other.attribute-name"
+				"entity.other.attribute-name",
+				"variable.other.object.js",
+				"variable.other.property.js"
 			],
 			"settings": {
 				"foreground": "#ff9500"
