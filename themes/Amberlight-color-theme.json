@@ -2,11 +2,11 @@
   "name": "Amberlight",
   "type": "dark",
   "colors": {
-    "editor.background": "#000000",
+    "editor.background": "#242018",
     "editor.foreground": "#ff9500",
     "activityBarBadge.background": "#ff9500",
     "sideBarTitle.foreground": "#ff9500",
-    "sideBar.background": "#000000",
+    "sideBar.background": "#242018",
     "sideBar.border": "#854e00",
     "sideBarSectionHeader.foreground": "#FF5370",
     "statusBar.background": "#ff9500",
