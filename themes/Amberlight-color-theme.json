@@ -7,12 +7,10 @@
     "activityBarBadge.background": "#ff9500",
     "sideBarTitle.foreground": "#ff9500",
     "sideBar.background": "#242018",
-    "sideBar.border": "#854e00",
     "sideBarSectionHeader.foreground": "#FF5370",
     "statusBar.background": "#ff9500",
-    "terminal.background": "#000000",
-    "terminal.foreground": "#ff9500",
-    "terminal.border": "#fb00ff",
+    "terminal.background": "#242018",
+    "terminal.foreground": "#ffc067",
     "terminalCursor.foreground": "#fb00ff"
   },
   "tokenColors": [
